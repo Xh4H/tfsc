@@ -5,7 +5,7 @@ Automated tool to find backup files that may disclose the website's source code.
 tfcs.py is based in two required parameters (-u [url] and -f [file(s)]) and an optional one, -v (verbose):
 
 ```pyhton
-python tfsc.py -u http://player.htb/launcher -f index.php,stats.php
+python tfsc.py -u http://somesite.com/launcher -f index.php,stats.php
 ```
 
 ![example](https://xh4h.com/img/upload/tfsc3.png)
