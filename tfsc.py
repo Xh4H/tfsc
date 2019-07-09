@@ -36,15 +36,15 @@ def attack(url):
 	return response
 
 cprint("""
-                  ___________________________________________
-         (__)    /                                           \\
-         (oo)   (  PHP Temporary File Source Code Disclosure  )
-  /-------\\/ --' \\___________________________________________/ 
+                  ________________________________________
+         (__)    /                                        \\
+         (oo)   (   Temporary File Source Code Disclosure  )
+  /-------\\/ --' \\________________________________________/ 
  / |     ||
 *  ||----||             
 """, "green")
 
-parser = argparse.ArgumentParser(description="PHP TFSC: A tool to search for php backup files (and display their source code)")
+parser = argparse.ArgumentParser(description="TFSC: A tool to search for php backup files (and display their source code)")
 parser.add_argument("-u", "--url", help="Base url")
 parser.add_argument("-f", "--file", help="File (or comma separated list of files) to search")
 parser.add_argument("-v", "--verbose", help="Show debug information")
@@ -96,4 +96,7 @@ def main():
 	show_results()
 
 if __name__ == '__main__':
-	main()
+	try:
+		main()
+	except:
+		print "\nBye!!"
