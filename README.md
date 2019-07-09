@@ -16,3 +16,7 @@ python tfsc.py -u http://player.htb/launcher -f index.php,stats.php
 | -f (--file)                                                | file (or comma separated list of files to be searched)                  |
 | -u (--url)                                                 | base url                                                                |
 | -v (--verbose)                                             | enable verbose debugging (accepts any value)                            |
+
+
+## More info
+More info about Temporary File Source Code Disclosure Vulnerability [here](https://www.rapid7.com/db/vulnerabilities/http-php-temporary-file-source-disclosure)
