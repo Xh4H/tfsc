@@ -20,7 +20,7 @@ def httpize(url):
 	return url
 
 def attack(url):
-	global headers, found
+	global found
 	vcprint("Starting request to %s" % url, "yellow")
 
 	try:
@@ -60,8 +60,6 @@ url = httpize(args.url)
 file_list = args.file.split(",") # possible_extensions
 cleaned_file_list = [s.rstrip(re.sub(r'\.\w+', "", s)) for s in file_list] # possible_extless || remove file extensions
 
-ua = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
-headers = {"User-Agent": ua, "Host": url}
 possible_extensions = ["%s~", "#%s#", "~%s", "%s.bak", "%s.tmp", "%s.old"]
 possible_extless    = ["%s.bak", "%s.tmp", "%s.old"]
 
