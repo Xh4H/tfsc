@@ -8,7 +8,7 @@ tfcs.py is based in two required parameters (-u [url] and -f [file(s)]) and an o
 python tfsc.py -u http://player.htb/launcher -f index.php,stats.php
 ```
 
-![example](https://xh4h.com/img/upload/tfsc.png)
+![example](https://xh4h.com/img/upload/tfsc2.png)
 
 ## Parameters
 | Command                                                    | Description                                                             |
