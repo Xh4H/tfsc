@@ -20,3 +20,6 @@ python tfsc.py -u http://somesite.com/launcher -f index.php,stats.php
 
 ## More info
 More info about Temporary File Source Code Disclosure Vulnerability [here](https://www.rapid7.com/db/vulnerabilities/http-php-temporary-file-source-disclosure).
+
+## Disclaimer
+All the information in this repository is for educational purposes only. The author of the repository is not responsible for any misuse of the information. This script has been created for educational purposes.
