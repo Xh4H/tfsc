@@ -1,5 +1,5 @@
 # tfsc - Temporary File Source Code (disclosure script)
-Automated tool to find backup files that may disclose the website's source code.
+tfsc is an automated and standalone tool to find backup files that may disclose the website's source code.
 
 ## Usage example
 tfcs.py is based in two required parameters (-u [url] and -f [file(s)]) and an optional one, -v (verbose):
