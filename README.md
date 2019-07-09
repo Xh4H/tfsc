@@ -19,4 +19,4 @@ python tfsc.py -u http://player.htb/launcher -f index.php,stats.php
 
 
 ## More info
-More info about Temporary File Source Code Disclosure Vulnerability [here](https://www.rapid7.com/db/vulnerabilities/http-php-temporary-file-source-disclosure)
+More info about Temporary File Source Code Disclosure Vulnerability [here](https://www.rapid7.com/db/vulnerabilities/http-php-temporary-file-source-disclosure).
