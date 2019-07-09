@@ -51,7 +51,7 @@ parser.add_argument("-v", "--verbose", help="Show debug information")
 args = parser.parse_args()
 
 # Both arguments are required
-if args.url is None and args.file is None:
+if args.url is None or args.file is None:
 	cprint("Missing arguments.\nUsage example:\n" + sys.argv[0] + " -u http://10.10.10.14/ -f index.php\n" + sys.argv[0] + " -u http://10.10.10.14/ -f index.php,stats.php", "red")
 
 # configuration
