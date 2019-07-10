@@ -81,12 +81,12 @@ def start():
 		for extless in possible_extless:
 			attempts +=1
 			target = url + extless % file
-			response = attack(target)
+			attack(target)
 	for file in file_list:
 		for ext in possible_extensions:
 			attempts +=1
 			target = url + ext % file
-			response = attack(target)
+			attack(target)
 
 
 def main():
