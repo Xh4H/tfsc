@@ -66,7 +66,6 @@ possible_extless    = ["%s.bak", "%s.tmp", "%s.old"]
 
 # Add / at the end of the url
 url = url + "/" if not url.endswith("/") else url
-
 attempts = found = 0
 
 def show_results():
