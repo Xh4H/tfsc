@@ -75,6 +75,7 @@ def show_results():
 
 def start():
 	global attempts
+	
 	cprint("Loading payloads . . .", "green")
 
 	for file in cleaned_file_list:
