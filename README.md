@@ -2,7 +2,7 @@
 tfsc is an automated and standalone tool to find backup files that may disclose the website's source code.
 
 ## Usage example
-tfcs.py is based in two required parameters (-u [url] and -f [file(s)]) and an optional one, -v (verbose):
+`tfcs.py` has two required parameters (-u [url] and -f [file(s)]) and an optional one, -v (verbose):
 
 ```pyhton
 python tfsc.py -u http://somesite.com/launcher -f index.php,stats.php
