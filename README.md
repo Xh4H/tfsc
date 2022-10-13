@@ -8,7 +8,8 @@ tfsc is an automated and standalone tool to find backup files that may disclose 
 python tfsc.py -u http://somesite.com/launcher -f index.php,stats.php
 ```
 
-![example](https://xh4h.com/img/upload/tfsc3.png)
+![tfsc3](https://user-images.githubusercontent.com/20613820/195701176-2f204e87-9f01-4668-a283-55bcd373adb7.png)
+
 
 ## Parameters
 | Command                                                    | Description                                                             |
